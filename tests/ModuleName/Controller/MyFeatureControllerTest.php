@@ -8,6 +8,7 @@ class MyFeatureControllerTest extends AbstractConsoleControllerTestCase
     public function setUp()
     {
         $this->setApplicationConfig(include __DIR__ . '/application.conf.php');
+        parent::setUp();
     }
 
     public function testMyCommandReplyAsAgreed()
